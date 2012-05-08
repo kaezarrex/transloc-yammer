@@ -24,9 +24,10 @@ function letsJQuery() {
     $('#network-type').remove();
 
     $('#network-logo')
-        .html('<img src="http://transloc.com/templates/transloc/images/transloc_logo.png">')
+        .html('<img src="http://transloc.com/wp-content/themes/transloc/images/logo.png">')
         .css({
             'border': 'none',
+            'background-image': 'none',
             'box-shadow': 'none',
             '-webkit-box-shadow': 'none',
             '-moz-box-shadow': 'none'
